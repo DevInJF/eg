@@ -1,0 +1,126 @@
+/******************************************************************
+
+Stylesheet: Sales pages stylesheets
+
+Full width template for sales pages
+
+******************************************************************/
+
+
+/******************
+private consulting
+******************/
+
+//9075 - staging, 9127 - production
+
+body.page-id-9127,
+body.page-id-9075 {
+	
+	
+	h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6,blockquote,blockquote p {
+		font-family:"Cantata One", Garamond, Times, Serif;
+	}
+	
+	h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+		margin: 2.5rem 0 1rem;
+	}
+	
+	
+	blockquote, blockquote p { font-size: 4em;line-height:normal;font-style: italic; }
+	
+	p,li {
+		font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	}
+	
+	p, li, .lt, cite {
+		color:#928f89;		
+	}
+	
+	.vlt { color:#efefef; }
+
+	.dark {
+		color:#0F171F;		
+	}
+	
+
+	
+	
+	padding-top: 0 !important;
+	
+	.alignright { float:right; margin: 0 0 1em 1em; }
+	.alignleft { float:left; margin: 0 1em 1em 0; }
+	
+	#container { background: #0F171F; }
+
+	.contain-to-grid {
+		background-color: transparent;
+	
+		.top-bar {
+			background-color: transparent;
+			margin: 1em 0;
+			
+			.title {
+				background: url("/wp-content/uploads/2015/10/personal-styling-eg.png") center center no-repeat;
+				background-size: contain;
+			    font-size: 2.0em;
+			    margin: 0;
+			}
+		}
+	}
+	
+	#content {
+		h1, .h1 { font-size: 3.75rem; line-height: 5rem; }
+	
+		h2,.h2,h3,.h3 { line-height:1.8; }
+		
+		blockquote {
+
+			margin: 0;
+			padding: 0;
+			border: 0;
+			
+			cite {
+				padding:1em 0;
+				text-align:right;
+				font-size: 1rem;
+			}
+/*
+			margin: 1.25em 0 1.25em -3em;
+			padding: 0.5em 0 0.5em 1.25em;
+			border-left:1px dotted #444;
+*/
+		}	
+
+		section {
+			padding: 3em 0;
+			
+			&#top-section {
+				background: url("/wp-content/uploads/2015/10/man-suit-lt.jpg") center center no-repeat;
+			    background-size: cover;
+			    padding: 12em 0;
+			}
+			&#full_width_1 {}
+			&#mid-break {
+				background: url("/wp-content/uploads/2015/10/man-suit-2.jpg") top center no-repeat;
+				padding: 6em 0;
+			}
+			&#mid-section {}
+			&#main-section {}
+			&#full_width_2 {}
+			&#bottom-section {
+				background:url("/wp-content/uploads/2015/10/man-suit-computer.jpg") center center no-repeat;
+				background-size: cover;
+				padding: 3em 0;
+			}
+			&#pre-footer-section {}
+			&#full_width_3 {}
+		}
+		
+		.darkbg { background-color: #0D141B; }
+		.ltbg { background-color:#121B25; }
+	}
+	
+	.footer {
+		border-top: 1px solid #192633;
+	}
+}    

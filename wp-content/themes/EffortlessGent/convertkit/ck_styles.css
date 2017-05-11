@@ -1,0 +1,123 @@
+  .ck_form {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1.5em;
+	overflow: hidden;
+	color: #666;
+	font-size: 16px;
+	clear: both;
+	margin: 20px 0px;
+	overflow: hidden;
+}
+
+.ck_form * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Form fields */
+
+.ck_errorArea {
+	display: none; /* temporary */
+}
+
+#ck_success_msg {
+	padding: 10px 10px 0px;
+	border: none;
+	background: #43ac6a;
+	text-align: center;
+	color: #fff;
+	
+}
+
+#ck_success_msg p {
+	margin: 0px;
+	padding: 0px 0px 10px;
+	font-weight: bold;
+}
+
+.ck_label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ck_form input[type="text"], .ck_form input[type="email"] {
+	font-size: 14px;
+	padding: 0px 8px;
+	width: 36%;
+	border: 1px solid #a4d1da; 
+	background-color: #fff; 
+	margin: 0px 1% 0px 0px;
+	height: 35px;
+	float: left;
+}
+
+.ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
+	outline: none;
+	border-color: #aaa;
+} 
+
+
+.ck_form .ck_subscribe_button {
+    width: 25%;
+    color: #4c7e94;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    background: #a4d1da;
+    cursor: pointer;
+    border: none;
+    text-shadow: none;
+    height: 35px;
+    float: left;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .ck_form .ck_subscribe_button:hover { 
+  		background-color: #6eb6c4;
+  		color: #4c7e94;
+  }
+  
+  
+  .ck_form.lean_wardrobe_form .ck_subscribe_button {
+  	background-color: #e26638;
+  	color: #edcdc1;
+  	border-color: #252525;
+  }
+  
+  .ck_form.lean_wardrobe_form .ck_subscribe_button:hover { 
+  		background-color: #c7562c;
+  		color: #fff;
+  }
+  
+  .ck_form.lean_wardrobe_form input[type="text"], .ck_form.lean_wardrobe_form input[type="email"] {
+  		border-color: #252525;
+  }
+  
+ 
+/*
+ .ck_form.fitbay_form input[type="text"], .ck_form.fitbay_form input[type="email"], .ck_form.fitbay_form .ck_subscribe_button {
+ 		float: none;
+ 		width: 100%;
+ 		margin-bottom: 10px;
+ }
+*/
+ 
+ 
+ /* SIDECOL forms */
+ 
+ .sidecol .ck_form input[type="text"],
+ .sidecol .ck_form input[type="email"] {
+		width: 100%;
+		float:none;
+		margin-bottom: 10px;
+ }
+	
+	
+.sidecol .ck_form .ck_subscribe_button {
+	    width: 100%;
+		float: none;
+	}
+ 
+  

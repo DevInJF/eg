@@ -1,0 +1,39 @@
+2014-05-17 01:26:54 overwrite ../css/style.css 
+2014-05-17 01:28:01 overwrite ../css/style.css 
+2014-05-17 01:29:37 overwrite ../css/style.css 
+2014-05-17 01:33:05 overwrite ../css/style.css 
+2014-05-17 01:35:56 overwrite ../css/style.css 
+2014-05-17 01:36:19 overwrite ../css/style.css 
+2014-05-17 01:36:57 overwrite ../css/style.css 
+2014-05-17 01:37:57 overwrite ../css/style.css 
+2014-05-17 01:40:42 overwrite ../css/style.css 
+2014-05-17 01:41:18 identical ../css/style.css 
+2014-05-17 01:41:35 overwrite ../css/style.css 
+2014-05-17 01:42:09 identical ../css/style.css 
+2014-05-17 01:42:17 overwrite ../css/style.css 
+2014-05-17 01:43:15     error style.scss (Line 56 of joints/_gallery.scss: Undefined variable: "$include-html-grid-classes".)
+2014-05-17 01:43:15 overwrite ../css/style.css 
+2014-05-17 01:43:27 overwrite ../css/style.css 
+2014-05-17 01:47:55 overwrite ../css/style.css 
+2014-05-17 01:48:23 identical ../css/style.css 
+2014-05-17 01:49:22 overwrite ../css/style.css 
+2014-05-17 14:55:42 overwrite ../css/style.css 
+2014-05-17 15:05:07 overwrite ../css/style.css 
+2014-05-17 15:06:16 identical ../css/style.css 
+2014-05-17 15:08:10 overwrite ../css/style.css 
+2014-05-17 15:10:30 overwrite ../css/style.css 
+2014-05-17 15:10:46 overwrite ../css/style.css 
+2014-05-17 15:11:11 overwrite ../css/style.css 
+2014-05-17 15:11:34 overwrite ../css/style.css 
+2014-05-17 15:11:54 overwrite ../css/style.css 
+2014-05-17 15:17:28     error style.scss (Line 12: Invalid CSS after "...ic,700italic);"": expected selector or at-rule, was "@import "//font...")
+2014-05-17 15:17:28 overwrite ../css/style.css 
+2014-05-17 15:17:51     error style.scss (Line 12: Invalid CSS after "...lic,700italic;"": expected selector or at-rule, was "@import "//font...")
+2014-05-17 15:17:51 overwrite ../css/style.css 
+2014-05-17 15:17:58     error style.scss (Line 12: Invalid CSS after "...alic,700italic"": expected selector or at-rule, was "@import "//font...")
+2014-05-17 15:17:58 overwrite ../css/style.css 
+2014-05-17 15:19:18 overwrite ../css/style.css 
+2014-05-17 15:20:30 overwrite ../css/style.css 
+2014-05-17 15:21:07 identical ../css/style.css 
+2014-05-17 15:21:20 identical ../css/style.css 
+2014-05-17 19:56:50 overwrite ../css/style.css 
