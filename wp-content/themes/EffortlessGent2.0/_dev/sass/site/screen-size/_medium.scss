@@ -1,0 +1,170 @@
+
+/******************************************************************
+
+Stylesheet: Medium Stylesheet
+
+Styles apply to 40.063em and up.
+
+******************************************************************/
+
+body:not(.page-template-page-focused-php)  {
+	padding-top: 114px;
+}
+	
+/*********************
+NAVIGATION STYLES
+*********************/
+
+
+    // Styles for the alert at the top of the screen
+#alert-header {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	.top-bar {
+		background: none;
+		padding: 0;
+		.columns {
+			height: 100%;
+		}
+		p {
+			color: $white;
+			margin-bottom: 0;
+			line-height: 45px;
+			font-size: 1em;
+			font-weight: 700;
+		}
+		.button {
+			top: 0;
+		}
+		#close-alert {
+			color: $primary-color;
+		}
+	}
+}
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+body.blog #blog-feature-post.has-post-thumbnail .article-title h2, body.archive #blog-feature-post.has-post-thumbnail .article-title h2, body.search #blog-feature-post.has-post-thumbnail .article-title h2 {
+	margin: -($global-v-margin) 0.5em 0.5em 0.5em;
+	padding: .2em;
+	min-height: 104px;
+}
+
+body.blog .post.has-post-thumbnail h5, body.archive .post.has-post-thumbnail h5, body.search .post.has-post-thumbnail h5 {
+	margin-top: -2em; 
+}
+
+
+.page-template-page-full-width-php .article-header,
+.page-template-page-product-php .article-header,
+.page-template-page-shop-php .article-header {
+	padding: 6em;
+}
+
+.row.archive-title {
+	margin-left: auto;
+}
+
+/* entry content */
+.entry-content {
+	
+	/* at this larger size, we can start to align images */
+	.alignleft, img.alignleft { 
+		margin-right: 1.5em; 
+		display: inline; 
+		float: left; 
+	}
+	.alignright, img.alignright { 
+		margin-left: 1.5em; 
+		display: inline; 
+		float: right; 
+	}
+	.aligncenter, img.aligncenter { 
+		margin-right: auto; 
+		margin-left: auto; 
+		display: block; 
+		clear: both; 
+	}
+
+	.sponsoredArea {
+		margin: 1em 0 2em;
+	}
+			
+} /* end .entry-content */
+
+// We're changing the margins of the top of the post here depending on whether or not there's a featured image.
+
+body.single {
+	.post {
+		margin-top: $global-v-margin;
+		&.has-post-thumbnail {
+			margin-top: 0;
+			.article-header {
+				margin: -($global-v-margin) .5em 1em .5em;
+				background-color: $body-bg;
+			}
+		}
+	}
+}
+
+.article-footer .second {
+	border-top: none;
+	border-left: 1px solid #eee;
+	margin-top: 0;
+}
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+.widget {
+	/* margin: 2.2em 0; */ //testing out spacing, removing this for now
+	&.AdWidget_HTMLWidget, &.AdWidget_ImageWidget {
+		/* margin: 0; */ //testing out spacing, removing this for now
+		a, div {
+			margin-top: 1em;
+		}
+	}
+}
+
+#next-prev-links {
+	/* padding: 0 10px; */
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+#footboard {
+}
+
+#menu-footer-nav {
+	display: inline-block;
+	li {
+		display: inline-block;
+		float: left;
+	}
+}
+/*
+check your menus here. do they look good?
+do they need tweaking?
+*/
+.footer-links {
+	ul {
+		li {}
+	}
+} /* end .footer-links */
+			
+/*********************
+FOUNDATION STYLES
+*********************/
+
+/*********************
+PLUGIN STYLES
+*********************/
+
+#infscr-loading {
+	left: 45%;
+}

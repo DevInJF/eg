@@ -1,0 +1,110 @@
+/*!
+Theme Name: Effortless Gent 2.0
+project URI: http://effortlessgent.com
+Author: Neil Tan
+Author URI: http://neiltan.net
+Description:  <code>Effortless Gent</code>: 
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Effortless Gent
+
+This project, like WordPress, is licensed under the GPL.
+*/
+
+// import normalize
+@import "../lib/foundation/scss/normalize";
+
+// import mixins
+@import "site/mixins";
+
+// import foundation overrides
+@import "site/settings";
+
+// foundation.scss
+@import "../lib/foundation/scss/foundation";
+
+// joints.scss
+@import "site/joints";
+
+//EG Main Globals
+@import "site/site-variables";
+@import "site/site-header";
+@import "site/site-footer";
+@import "site/site-layout";
+
+/*
+SMALL (BASE) SIZE
+These are the small/base styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*/
+
+// styles in small.scss
+@import "site/screen-size/small";
+
+/*
+MEDIUM
+*/
+@media only screen and (min-width: 40.063em) {
+
+	// styles in medium.scss
+	// @import "site/screen-size/medium";
+
+} // end of media query
+
+/*
+LARGE
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*/
+@media only screen and (min-width: 64.063em) {
+	// styles in large.scss
+	// @import "site/screen-size/large";
+}
+
+@media only screen and (min-width: 90.063em) {
+	// styles in xlarge.scss
+	// @import "site/screen-size/xlarge";
+} 
+
+/*
+XXLARGE
+*/
+@media only screen and (min-width: 120.063em) {
+	// styles in xxlarge.scss
+	// @import "site/screen-size/xxlarge";
+}
+
+/*
+RETINA (2x RESOLUTION DEVICES)
+This applies to the retina iPhone (4s) and iPad (2,3) along with
+other displays with a 2x resolution. You can also create a media
+query for retina AND a certain size if you want. Go Nuts.
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+
+	// styles in 2x.scss
+	@import "site/screen-size/2x";
+
+} 
+
+/*
+iPHONE 5 MEDIA QUERY
+Want to get fancy for no good reason? Knock yourself out.
+*/
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  // iPhone 5 or iPod Touch 5th generation styles (you can include your own file if you want)
+  
+}
+
+
+//PRINT STYLESHEET
+@media print { @import "site/print"; }
+
+
+
