@@ -1,1 +1,28 @@
 // Site Footer
+#menu-footer-nav{
+	li{
+		a{ 
+			font-family: 'ProximaNova-Bold';
+			letter-spacing: 1px;
+		}
+	}
+}
+
+#inner-footboard-content{
+	h2{ 
+		font-size: 32px;
+		line-height: 2.8rem;
+		strong{
+			font-weight: 700;
+		}
+	}
+	p{
+		font-size: 16px;
+		margin: 10px 0 30px;
+	}
+	.button{
+		&.expand{
+			background-color: $eg-gold;
+		}
+	}
+}

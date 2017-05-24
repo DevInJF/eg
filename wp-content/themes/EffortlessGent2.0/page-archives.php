@@ -13,7 +13,7 @@ Template Name: Archives Template
 
     <div id="inner-content" class="row clearfix">
         <div id="main" class="large-12 medium-12 columns clearfix" role="main">						
-            <div class="archives">
+            <div class="archives row">
                 <?php
                     // List Pages by Month/Day
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
@@ -26,9 +26,9 @@ Template Name: Archives Template
                     query_posts($args);
                     if (have_posts()) : while (have_posts()) : the_post();
                 ?>
-                <div class="arc-item clearfix">
+                <div class="arc-item large-4 columns">
                     <div class="row">
-                        <div class="small-12 medium-4 small-centered medium-uncentered columns">
+                        <div class="small-12 medium-12 small-centered medium-uncentered columns">
                             <?php                                
                                 if ( has_post_thumbnail() ) {
                                     the_post_thumbnail('blog-feature-small');
@@ -38,7 +38,7 @@ Template Name: Archives Template
                                 }
                             ?>
                         </div>
-                        <div class="small-11 medium-8 small-centered medium-uncentered columns">
+                        <div class="small-11 medium-12 small-centered medium-uncentered columns">
                             <h3><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
                             <p class="postdate"><?php echo get_the_time('F d, Y');?></p>
                             <p class="tags clearfix"><?php the_tags('', ''); ?></p>

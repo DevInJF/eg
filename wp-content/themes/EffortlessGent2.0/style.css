@@ -6998,6 +6998,92 @@ nav.header-nav {
     width: 180px;
     margin: 0; }
 
+#menu-footer-nav li a {
+  font-family: 'ProximaNova-Bold';
+  letter-spacing: 1px; }
+
+#inner-footboard-content h2 {
+  font-size: 32px;
+  line-height: 2.8rem; }
+  #inner-footboard-content h2 strong {
+    font-weight: 700; }
+
+#inner-footboard-content p {
+  font-size: 16px;
+  margin: 10px 0 30px; }
+
+#inner-footboard-content .button.expand {
+  background-color: #ae8e68; }
+
+#homeslider .tp-caption.eg-headline-thick-wh {
+  font-family: 'ProximaNova-Semibold'; }
+
+#homeslider .tp-caption.eg-button {
+  background: #000;
+  border: 0;
+  padding: 0 !important; }
+  #homeslider .tp-caption.eg-button:hover {
+    background: #47adc0; }
+  #homeslider .tp-caption.eg-button a {
+    padding: 15px 30px !important;
+    font-family: 'ProximaNova-Bold';
+    display: block; }
+
+.section-headline {
+  color: #000;
+  display: inline-block;
+  padding: 5px 0px;
+  font-family: 'ProximaNova-Bold';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-size: 20px; }
+
+.latest-article .article-thumb {
+  padding-left: 0; }
+
+.latest-article .article-excerpt p {
+  font-family: "Helvetica", Arial, sans-serif;
+  line-height: 1.5rem;
+  font-size: 16px; }
+
+.latest-article h2 {
+  margin: 0;
+  line-height: 2.3rem !important; }
+
+.latest-article .article-title {
+  font-weight: 700;
+  font-size: 30px; }
+
+.feature-section .article-excerpt h3 {
+  line-height: 1.8rem; }
+  .feature-section .article-excerpt h3 a {
+    font-size: 22px; }
+
+.button {
+  background: #000;
+  color: #fff;
+  font-family: 'ProximaNova-Bold';
+  letter-spacing: 1px; }
+  .button:hover {
+    background-color: #ae8e68; }
+
+.archives .arc-item {
+  margin-bottom: 30px;
+  min-height: 400px; }
+  .archives .arc-item h3 {
+    font-size: 22px;
+    font-weight: 700; }
+    .archives .arc-item h3 a {
+      color: #000;
+      text-decoration: none !important; }
+      .archives .arc-item h3 a:hover {
+        background: #000 !important;
+        color: #fff !important; }
+  .archives .arc-item .postdate {
+    font-size: 12px;
+    color: #ae8e68; }
+
 /*
 SMALL (BASE) SIZE
 These are the small/base styles. It's what people see on their phones. If

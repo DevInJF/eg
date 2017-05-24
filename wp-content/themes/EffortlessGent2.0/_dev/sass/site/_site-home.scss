@@ -1,0 +1,72 @@
+// Site Home
+#homeslider{
+	.tp-caption.eg-headline-thick-wh{
+  		font-family: 'ProximaNova-Semibold';
+	}
+	.tp-caption.eg-button{
+		background: $black;
+		border: 0;
+		padding: 0 !important;
+		&:hover{ 
+			background: #47adc0;
+		}
+		a{
+			padding: 15px 30px !important;
+			font-family: 'ProximaNova-Bold';
+			display: block;
+		}
+	}
+}
+
+//Home Page Article Feed
+.section-headline{
+	// background: $eg-dark-gray;
+	color: $black; 
+	display: inline-block;
+	padding: 5px 0px;
+	font-family: 'ProximaNova-Bold';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.latest-article{
+	.article-thumb{
+		padding-left: 0;
+	}
+	.article-excerpt{
+		p{
+			font-family: "Helvetica", Arial, sans-serif;
+			line-height: 1.5rem;
+			font-size: 16px;
+		}
+	}
+	h2{ margin: 0; line-height: 2.3rem !important;}
+	.article-title{
+		font-weight: 700;
+		font-size: 30px;
+	}
+}
+
+.feature-section{
+	.article-excerpt{
+		h3{
+			line-height: 1.8rem;
+			a{
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+.button{
+	background: $black;
+	color: $white;
+	font-family: 'ProximaNova-Bold';
+	letter-spacing: 1px;
+	&:hover{
+		background-color: $eg-gold;
+	}
+	&.tiny{
+	}
+}
